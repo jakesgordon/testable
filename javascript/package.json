@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "description": "example",
+  "author": "Jake Gordon <jake@codeincomplete.com>",
+  "main": "example.js",
+  "files": [
+    "example.js"
+  ],
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "local-web-server": "^1.2.6",
+    "uglify-js": "^2.7.4"
+  },
+  "version": "3.0.0",
+  "scripts": {
+    "start": "ws",
+    "test": "ava -v",
+    "test:watch": "ava --watch",
+    "minify": "uglifyjs example.js --output example.min.js --compress --mangle --stats"
+  }
+}

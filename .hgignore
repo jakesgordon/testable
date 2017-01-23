@@ -1,0 +1,9 @@
+syntax: glob
+
+*.swp
+*.env
+npm-debug.log
+node_modules
+_build
+
+syntax: regexp
