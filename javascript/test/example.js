@@ -1,10 +1,10 @@
-import test    from 'ava';
-import Example from '../example';
+import test    from 'ava'
+import example from '../example'
 
 //-------------------------------------------------------------------------------------------------
 
 test('example', t => {
-  t.is(Example.foo, 'bar');
+  t.is(example.foo, 'bar');
 });
 
 //-------------------------------------------------------------------------------------------------

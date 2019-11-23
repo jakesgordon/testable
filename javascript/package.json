@@ -3,6 +3,7 @@
   "description": "example",
   "author": "Jake Gordon <jake@codeincomplete.com>",
   "main": "example.js",
+  "license": "MIT",
   "files": [
     "example.js"
   ],
@@ -12,8 +13,8 @@
   },
   "version": "1.0.0",
   "scripts": {
-    "test": "ava -v",
+    "test": "ava -v test/*.js",
     "test:watch": "ava --watch",
-    "lint": "eslint *.js"
+    "lint": "eslint ."
   }
 }

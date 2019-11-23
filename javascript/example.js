@@ -1,9 +1,7 @@
-(function() {
+'use strict'
 
-  'use strict'
+var example = {
+  foo: 'bar'
+}
 
-  module.exports = {
-    foo: 'bar'
-  }
-
-})();
+module.exports = example
