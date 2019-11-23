@@ -9,12 +9,14 @@
   ],
   "devDependencies": {
     "ava": "^2.4.0",
-    "eslint": "^6.7.0"
+    "eslint": "^6.7.0",
+    "eslint-watch": "^6.0.1"
   },
   "version": "1.0.0",
   "scripts": {
     "test": "ava -v test/*.js",
     "test:watch": "ava --watch",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:watch": "esw . --watch"
   }
 }
