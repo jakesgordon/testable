@@ -1,19 +1,15 @@
 require 'minitest/autorun'
-require 'set'
 require 'awesome_print'
 require 'byebug'
-
-#--------------------------------------------------------------------------------------------------
-
-module Example
-end
+require 'set'
+require './lib/example'
 
 #--------------------------------------------------------------------------------------------------
 
 class ExampleTest < Minitest::Test
 
   def test_foo
-    assert_equal true, !false
+    assert_equal Example.foo, :bar
   end
 
 end

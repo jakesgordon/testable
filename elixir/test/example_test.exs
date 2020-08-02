@@ -1,8 +1,8 @@
 defmodule ExampleTest do
-  use ExUnit.Case
-  doctest Example
+  use ExUnit.Case, async: true
 
-  test "the truth" do
-    assert 1 + 1 == 2
+  test "foo" do
+    assert Example.foo == "bar"
   end
+
 end

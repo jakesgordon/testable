@@ -1,5 +1,5 @@
 import test    from 'ava'
-import example from '../example'
+import example from '../lib/example'
 
 //-------------------------------------------------------------------------------------------------
 
