@@ -28,3 +28,12 @@ Using [Ava](https://github.com/avajs/ava) as the test framework:
 > npm install
 > npm test
 ```
+
+## Go
+
+Using Go's built in [testing](https://pkg.go.dev/testing#hdr-Subtests_and_Sub_benchmarks) package:
+
+```
+> go install
+> go test
+```
