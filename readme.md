@@ -37,3 +37,11 @@ Using Go's built in [testing](https://pkg.go.dev/testing#hdr-Subtests_and_Sub_be
 > go install
 > go test
 ```
+
+## Rust
+
+Using Rust's built in [testing](https://doc.rust-lang.org/book/ch11-01-writing-tests.html) framework:
+
+```
+> cargo test
+```

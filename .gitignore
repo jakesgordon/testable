@@ -1,2 +1,3 @@
 node_modules
 /elixir/_build/
+/rust/target/
