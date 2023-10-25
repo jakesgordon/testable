@@ -11,6 +11,15 @@ Using Elixir's built in [ExUnit](https://hexdocs.pm/ex_unit/1.12/ExUnit.html) te
 > mix test
 ```
 
+## Ruby
+
+Using Ruby's [minitest](https://github.com/minitest/minitest) framework:
+
+```
+> bundle install
+> rake test
+```
+
 ## Javascript
 
 Using [Ava](https://github.com/avajs/ava) as the test framework:
