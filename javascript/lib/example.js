@@ -1,7 +1,3 @@
-'use strict'
-
-var example = {
+export default {
   foo: 'bar'
 }
-
-module.exports = example

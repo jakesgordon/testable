@@ -1,5 +1,5 @@
 import test    from 'ava'
-import example from '../lib/example'
+import example from '../lib/example.js'
 
 //-------------------------------------------------------------------------------------------------
 
